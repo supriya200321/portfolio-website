@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Devlo<span>pe</span>r..</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#Skills">Skills</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>M.S.S.Supriya</h1>
+			<h3>CSE <span>Student.</span></h3>			
+		</div>
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.webp">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2><br>
+			<p>I am pursuing btech-cse at parul university,vadodara and working as full stack webdevelopment intern at slash mark,hyderabad.I completed my hsc from sri chaitanya college with percentage of 95% and completed my ssc from sri chaitanya school with 95%.My hobbies are listening to music,cooking and visiting new places.
+				</p>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<section class="Skills" id="Skills">
+	<div class="main-text">
+		<h2><span>My</span> Skills</h2>
+	</div>
+	<div class="Skills-content">
+		<div class="box">
+			<h3>Languages known</h3>
+			<p>C,Python,SQL ,Operating system, Data Structures, HTML, CSS,Javascript</p>
+		</div>
+
+		<div class="box">
+			<h3>Strengths</h3>
+			<p>My strengths are being able to analyze situation quickly and i believe in teamwork and being punctual about my work.</p>
+		</div>
+
+		<div class="box">
+			<h3>Certifications</h3>
+			<p>Web development bootcamp from ShapeAI,
+				Artificial intelligence from Verzeo,
+				Cyber Security Essentials From Cisco Network Academy,
+				Basics of python from Infosys Springboard.</p>
+		</div>
+	</div>
+
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>Latest</span> Projects</h2>
+	</div>
+	<div class="portfolio-content">
+		<div class="box1">
+			<h1>project-1</h1><br>
+			<h3>Mnist Hand written digits recognition</h3>
+			<p>This machine learning project is a minor project done using python libraries like numpy,pandas and so on and also we gave different hand written images to train the model and gained
+				success in recognizing the digits with good accuracy.</p>
+		</div>
+
+		<div class="box1">
+			<img src="img/download.png">
+		</div>
+        
+		<div class="box1">
+			<br><h1>project-2</h1><br>
+			<h3>Hey stranger-Friendhship and community app</h3>
+			<p>This project aims to create a platform for university students to find friends within the campus and also to solve their education related queries.We are
+				trying to create an application and also a website.We are trying to include more new features to make it unique compared to other social media apps.
+				</p>
+		</div>
+
+		<div class="box1">
+			<img src="img/p2.png">
+		</div>
+
+		<div class="box1">
+			<h1>project-3</h1><br>
+			<h3>Landing page project</h3>
+			<p>This project is based on creating a landing page for own webiste or shop(i used soap shop as theme) and done using basic HTML,CSS</p>
+		</div>
+
+		<div class="box1">
+			<img src="img/p3.png">
+		</div>
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4>If you have any project in your mind.</h4>
+		<div class="list">
+			<li><a href="#">0123456789</a></li>
+			<li><a href="#">200303124362@paruluniversity.ac.in</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="#"><i class='bx bxl-facebook'></i></a>
+			<a href="#"><i class='bx bxl-twitter' ></i></a>
+			<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="#"><i class='bx bxl-youtube' ></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="https://formspree.io/f/mdoqeaay" method="post">
+			<div>
+		        <label for="name">Name:</label>
+		        <input type="text" name="name" id="name" required>
+	        </div>
+			<div>
+				<label for="mobile">Mobile:</label>
+				<input type="number" name="mobile" id="mobile" >
+			</div>
+	        <div>
+		        <label for="mail">E-mail:</label>
+		        <input type="email" name="email" id="mail" required>
+	        </div>
+	        <div>
+		        <label for="textarea">Message:</label>
+		        <textarea id="msg" name="message" required></textarea>
+	        </div>
+		    <div class="button">
+		        <button type="submit" name="submit" class="contactbutton">Send your message</button>
+	        </div>
+		</form>
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+</body>
+
+</html>
